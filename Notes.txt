@@ -1,0 +1,4 @@
+1. In Sequential Workflows, we can return the entire state if we want
+2. But in parallel worklfows, only partial state (due to conflict from parallel paths)
+3. When we use invoke, the whole graph runs (from start to end). So to make chatbot(to maintain conversation history), we use Persistence.
+     Persistence-> when we reach the END, the data of state is not lost(we can store it- RAM, DB)
